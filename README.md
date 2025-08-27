@@ -1,13 +1,14 @@
-Use this command to create a new next app with this template -> ```npx create-next-app -e "https://github.com/Rishi-Sidharda/nextjs-saas-template" {your app name}```
+Use this command to create a new next app with this template -> `npx create-next-app -e "https://github.com/Rishi-Sidharda/nextjs-saas-template" {your app name}`
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-`npm i` in terminal to fix errors
+`npm install` in terminal to fix errors
 
-1. Change the Firebase Config in utils/firebase.ts to your own firebase project config
+1. Change the Firebase Config in env file to your own firebase project config
 2. Change the Firestore rules to rules mentioned in firestore_rules.txt
+3. Make env active in git ignore
 
 First, run the development server:
 
